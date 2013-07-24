@@ -20,7 +20,7 @@ Structure
 
 Each sub-folder contains separate [Play!](http://www.playframework.com/) application. So to run it you have to go into subfolder and run:
 
-`play run
+`play run`
 
 Afterwards you can go to http://localhost:9000/[framework]/[anytext]. You will see the page with text "Bonjour [anytext]". Please look at `routes` file to exact URLs. 
 
