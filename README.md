@@ -8,6 +8,7 @@ Content
 -------
 
 I've covered following DI frameworks from Java and Scala world:
+
 1. Spring
 2. Spring-Scala
 3. CDI
@@ -28,7 +29,7 @@ Explanation
 -----------
 
 I've used very simple example to show the DI. In package `services` you can find `Translator` service interface and its implementation `FrenchTranslator`.
-`Translator` service is injected into `controllers.Translate` controller. Controllers takes any string on the query path, assuming that you've put the name there, and greets you accordingly in french.
+`Translator` service is injected into `controllers.Translate` controller. Controller takes any string on the query path, assuming that you've put the name there, and greets you accordingly in french.
 
 
 
